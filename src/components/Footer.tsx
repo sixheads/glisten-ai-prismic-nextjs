@@ -1,6 +1,6 @@
 import { createClient } from "@/prismicio";
-import WordMark from "./WordMark";
 import { PrismicNextLink } from "@prismicio/next";
+import WordMark from "@/components/WordMark";
 import Link from "next/link";
 
 export default async function Footer() {
